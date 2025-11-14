@@ -3,6 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #c5c5c5;
+    margin-top: 70px;
 }
 
 .container p, ul{
@@ -10,7 +11,13 @@ body {
     line-height: 1.6;
     margin: 20px;
     text-align: center;
+    list-style-type: none;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
 .container {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
@@ -55,6 +62,13 @@ header h2 {
     padding: 20px 20px;
     display: flex;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: black;
+    padding: 15px 0;
+    z-index: 1000;
 }
 
 .nav ul {
@@ -111,6 +125,12 @@ header h2 {
     width: 100%;
     border-collapse: collapse;
     font-family: Arial, sans-serif;
+    margin-bottom: 100px;
+    
+}
+
+#nabidka.nadpis {
+    padding: 20px;
 }
 
 
@@ -124,13 +144,90 @@ header h2 {
 
 #nabidka td {
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 2px solid #000000;
 }
 
 
 #nabidka tbody tr:nth-child(even) {
-    background-color: #e19a007b;
+    background-color: #ededed;
 }
+
+#nabidka tbody tr:nth-child(odd) {
+    background-color: #4f4f4f;
+    color: white;
+}
+
+
+
+
+
+
+
+.autolux-team .specializations h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+}
+
+
+.card {
+    background: #5b5b5b;         
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #333;       
+    transition: 0.3s;
+    
+}
+
+.card:hover {
+    background: #2e2e2e;             
+    transform: translateY(-4px);
+    border-color: #555;
+}
+
+
+.card h4 {
+    margin: 0 0 8px 0;
+    font-size: 22px;
+    color: #fff;
+}
+
+.card .role {
+    color: #bbb;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.card .meta {
+    color: #aaa;
+    font-size: 14px;
+}
+
+
+.team-cta {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.kontaktovat {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
 
 footer {
     background-color: black;
