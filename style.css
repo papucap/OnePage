@@ -3,7 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #c5c5c5;
-    margin-top: 70px;
+    margin-top: 65px;
 }
 
 .container p, ul{
@@ -227,6 +227,52 @@ header h2 {
     font-size: 20px;
 }
 
+form{  
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px 0;
+    font-weight: bold;
+}  
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.formular button:hover {
+    background-color: #333333;
+}
+
+.formular {
+    background-color: #494949;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    align-items: left;
+}
+
+.test{
+    text-align: left;
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
 
 
 footer {
@@ -236,6 +282,8 @@ footer {
     padding: 30px;
     margin-top: 20px;
 }
+
+
 
 
 @media screen and (max-width: 1200px) {
@@ -282,6 +330,9 @@ footer {
     header h2 {
         font-size: 25px;
     }
+    .nav {
+        position: absolute;
+    }
 
     
     .nav ul {
@@ -309,6 +360,10 @@ footer {
 
     header h2 {
         font-size: 20px;
+    }
+
+    .nav {
+        position: absolute;
     }
 
     .nav ul {
