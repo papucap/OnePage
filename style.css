@@ -283,6 +283,21 @@ footer {
     margin-top: 20px;
 }
 
+.footer p {
+    margin-bottom: 15px;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);      
+    transition: 0.2s;
+}
+
+.social-icon img:hover {
+    filter: invert(60%);       
+    transform: scale(1.1);     
+}
 
 
 

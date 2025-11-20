@@ -357,44 +357,66 @@
                 <div class="nadpis">
                     <h2>Kontaktujte nás</h2>
                 </div>
-                <section class = "formular">
-                <form  method="post" class="kontaktniFormular">
-                    <label for="name">Jméno:</label>
-                    <input type="text" id="name" name="name" required>
+                <section class="formular">
+                    <form method="post" class="kontaktniFormular">
+                        <label for="name">Jméno:</label>
+                        <input type="text" id="name" name="name" required>
 
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email" required>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
 
-                    <label for="message">Zpráva:</label>
-                    <textarea id="message" name="message" rows="6" required></textarea>
-                    
-                    <div class = "test">
-                    <label for="radiobutton">Mám zájem o testovací jízdu</label>
-                    <input type="radio" id="testDriveYes" name="testDrive" value="yes">
-                    <label for="testDriveYes">Ano</label>
-                    <input type="radio" id="testDriveNo" name="testDrive" value="no" checked>
-                    <label for="testDriveNo">Ne</label>
-                    </div>
+                        <label for="message">Zpráva:</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
 
-                    <div class = "GDPR">
-                    <label for="acceptGDPR">Souhlasím se zpracováváním osobních údajů</label>
-                    <input type="checkbox" id="acceptGDPR" name="acceptGDPR" required>
-                    </div>
-                    
+                        <div class="test">
+                            <label for="radiobutton">Mám zájem o testovací jízdu</label>
+                            <input type="radio" id="testDriveYes" name="testDrive" value="yes">
+                            <label for="testDriveYes">Ano</label>
+                            <input type="radio" id="testDriveNo" name="testDrive" value="no" checked>
+                            <label for="testDriveNo">Ne</label>
+                        </div>
 
-                    <button type="submit">Odeslat</button>
-                </form>
+                        <div class="GDPR">
+                            <label for="acceptGDPR">Souhlasím se zpracováváním osobních údajů</label>
+                            <input type="checkbox" id="acceptGDPR" name="acceptGDPR" required>
+                        </div>
+
+
+                        <button type="submit">Odeslat</button>
+                    </form>
                 </section>
-                
+
 
             </section>
         </main>
 
         <footer>
-            <h2>Kontaktní údaje</h2>
-            <p>Adresa: Ulice 123, Praha 4, 140 00, Česká republika</p>
-            <p>Telefon: +420 123 456 789</p>
-            <p>E-mail: info@autolux.cz</p>
+            <div class="leftFooter">
+                <h2>Kontaktní údaje</h2>
+                <p>Adresa: Ulice 123, Praha 4, 140 00, Česká republika</p>
+                <p>Telefon: +420 123 456 789</p>
+                <p>E-mail: info@autolux.cz</p>
+            </div>
+            <div class="social-links">
+                <h2>Sledujte nás</h2>
+                <div class="social-links">
+                    <a href="https://facebook.com" target="_blank" class="social-icon">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg" alt="Facebook">
+                    </a>
+
+                    <a href="https://instagram.com" target="_blank" class="social-icon">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram">
+                    </a>
+
+                    <a href="https://tiktok.com" target="_blank" class="social-icon">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tiktok.svg" alt="TikTok">
+                    </a>
+
+                    <a href="https://youtube.com" target="_blank" class="social-icon">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/youtube.svg" alt="YouTube">
+                    </a>
+                </div>
+            </div>
         </footer>
     </div>
 </body>
